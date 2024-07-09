@@ -161,7 +161,7 @@ import numpy as np
 from  sklearn.linear_model import LinearRegression
 
 app = Flask(__name__) 
-url ='https://raw.githubusercontent.com/ShriyaSingh47/Python-on-glitch-/main/heart.csv'
+url ='https://raw.githubusercontent.com/Akshat81172/Python-on-glitch-/main/heart.csv'
 stud_marks =  pd.read_csv(url)
 stud_marks1 = np.array(stud_marks)
 X = stud_marks1[:,0:7] 
